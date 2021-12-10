@@ -1,1 +1,53 @@
+// Custom Theming for NG-ZORRO
+// For more information: https://ng.ant.design/docs/customize-theme/en
+@import "../node_modules/ng-zorro-antd/ng-zorro-antd.less";
+
+// Override less variables to here
+// View all variables: https://github.com/NG-ZORRO/ng-zorro-antd/blob/master/components/style/themes/default.less
+
+// @primary-color: #1890ff;
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: ubuntu;
+  src: url(assets/fonts/Ubuntu-Regular.ttf);
+}
+
+@fontNormal: 18px;
+
+body {
+  font-family: "ubuntu";
+  font-size: @fontNormal;
+  color: #001529;
+}
+
+[nz-menu-item] {
+  font-size: @fontNormal;
+}
+[mt3] {
+  margin-top: 3em;
+}
+[mt5] {
+  margin-top: 12em;
+}
+[mt2] {
+  margin-top: 2em;
+}
+[mt1] {
+  margin-top: 1em;
+}
+
+[proHA] {
+  height: 100%;
+}
+
+li {
+  margin: 28px 0;
+  font-size: @fontNormal;
+}
+
+.d50 {
+  max-width: 50%;
+  min-width: 50%;
+  background-color: #2c3e501a;
+}
