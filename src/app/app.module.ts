@@ -17,6 +17,8 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { NzDividerModule } from 'ng-zorro-antd/divider';
+import { NzInputModule } from 'ng-zorro-antd/input';
+import { NzIconModule } from 'ng-zorro-antd/icon';
 
 
 const ngZorrow = [
@@ -26,7 +28,9 @@ const ngZorrow = [
   NzGridModule,
   NzButtonModule,
   NzCollapseModule,
-  NzDividerModule
+  NzDividerModule,
+  NzInputModule,
+  NzIconModule
 ]
 
 registerLocaleData(es);
